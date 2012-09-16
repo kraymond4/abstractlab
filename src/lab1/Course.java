@@ -7,7 +7,7 @@ package lab1;
 /**
  *
  * @author Kyle Raymond
- * version: 1.0
+ * version: 1.05
  */
 public abstract class Course 
 {
@@ -15,15 +15,33 @@ public abstract class Course
     private String courseNumber;
     private double credits;
     
-    public abstract String getCourseNumber();
+    public String getCourseNumber()
+    {
+        return courseNumber;
+    }
     
-    public abstract void setCourseNumber(String courseNumber);
+    public void setCourseNumber(String courseNumber)
+    {
+        this.courseNumber = courseNumber;
+    }
     
-    public abstract double getCredits();
+    public double getCredits()
+    {
+        return credits;
+    }
     
-    public abstract void setCredits(double credits);
+    public void setCredits(double credits)
+    {
+        this.credits = credits;
+    }
     
-    public abstract String getCourseName();
+    public String getCourseName()
+    {
+        return courseName;
+    }
     
-    public abstract void setCourseName(String courseName);
+    public void setCourseName(String courseName)
+    {
+        this.courseName = courseName;
+    }
 }
