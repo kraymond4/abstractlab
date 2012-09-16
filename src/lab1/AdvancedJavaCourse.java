@@ -6,10 +6,10 @@ import javax.swing.JOptionPane;
  * Describe responsibilities here.
  *
  * @author      Kyle Raymond
- * @version     1.00
+ * @version     1.05
  */
 public class AdvancedJavaCourse {
-    String courseName;
+    private String courseName;
     private String courseNumber;
     private double credits;
     private String prerequisites;
@@ -19,8 +19,8 @@ public class AdvancedJavaCourse {
         this.setCourseNumber(courseNumber);
     }
 
-    public String getCapitalizedCourseName() {
-        return this.getCourseName().toUpperCase();
+    public String getCourseName() {
+        return courseName;
     }
 
 
@@ -46,9 +46,7 @@ public class AdvancedJavaCourse {
         this.setCredits(credits);
     }
 
-    public String getCourseName() {
-        return courseName;
-    }
+    
 
     public void setCourseName(String courseName) {
         this.courseName = courseName;

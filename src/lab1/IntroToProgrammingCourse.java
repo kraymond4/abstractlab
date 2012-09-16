@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
  * Do not change this fact.
  *
  * @author      Kyle Raymond
- * @version     1.00
+ * @version     1.05
  */
 public class IntroToProgrammingCourse {
     private String courseName;

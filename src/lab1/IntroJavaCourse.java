@@ -4,10 +4,10 @@ package lab1;
  * Describe responsibilities here.
  *
  * @author      Kyle Raymond
- * @version     1.00
+ * @version     1.05
  */
 public class IntroJavaCourse {
-    String courseName;
+    private String courseName;
     private String courseNumber;
     private double credits;
     private String prerequisites;
