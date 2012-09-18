@@ -15,33 +15,36 @@ public abstract class Course
     private String courseNumber;
     private double credits;
     
-    public String getCourseNumber()
+    public final String getCourseNumber()
     {
         return courseNumber;
     }
     
-    public void setCourseNumber(String courseNumber)
+    public final void setCourseNumber(String courseNumber)
     {
+        // needs validation
         this.courseNumber = courseNumber;
     }
     
-    public double getCredits()
+    public final double getCredits()
     {
         return credits;
     }
     
-    public void setCredits(double credits)
+    public final void setCredits(double credits)
     {
+        //needs validation
         this.credits = credits;
     }
     
-    public String getCourseName()
+    public final String getCourseName()
     {
         return courseName;
     }
     
-    public void setCourseName(String courseName)
+    public final void setCourseName(String courseName)
     {
+        //needs validation
         this.courseName = courseName;
     }
 }
