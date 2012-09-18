@@ -12,6 +12,8 @@ public class StartUp
 {
     public static void main(String[] Args)
     {
+        Course basic = new IntroToProgrammingCourse("Programming for dummies", "5554821814", 4.0);
+        
         
     }
 }
