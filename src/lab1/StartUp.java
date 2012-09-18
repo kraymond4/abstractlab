@@ -14,6 +14,6 @@ public class StartUp
     {
         Course basic = new IntroToProgrammingCourse("Programming for dummies", "5554821814", 4.0);
         
-        
+        System.out.println(basic.getCourseName() + " is now in session.");
     }
 }
