@@ -33,7 +33,8 @@ public class AdvancedJavaCourse extends Course
     }
 
     public final void setPrerequisites(String prerequisites) 
-    {     
+    { 
+        //needs validation
         this.prerequisites = prerequisites;
     }
 
