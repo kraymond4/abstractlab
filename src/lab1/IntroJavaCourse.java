@@ -6,7 +6,8 @@ package lab1;
  * @author      Kyle Raymond
  * @version     1.05
  */
-public class IntroJavaCourse extends Course {
+public class IntroJavaCourse extends Course 
+{
     
     private String prerequisites;
 

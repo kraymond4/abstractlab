@@ -8,7 +8,8 @@ package lab1;
  * @author      Kyle Raymond
  * @version     1.05
  */
-public class AdvancedJavaCourse extends Course {
+public class AdvancedJavaCourse extends Course 
+{
     
     private String prerequisites;
 
