@@ -29,6 +29,7 @@ public class IntroJavaCourse implements CourseOutline
 
     public void setCourseNumber(String courseNumber) 
     {
+        //needs validation
         this.courseNumber = courseNumber;
     }
 
@@ -39,6 +40,7 @@ public class IntroJavaCourse implements CourseOutline
 
     public void setCredits(double credits) 
     {
+        //needs validation
         this.credits = credits;
     }
 
@@ -49,6 +51,7 @@ public class IntroJavaCourse implements CourseOutline
 
     public void setPrerequisites(String prerequisites) 
     {
+        //needs validation
         this.prerequisites = prerequisites;
     }
 
@@ -59,6 +62,7 @@ public class IntroJavaCourse implements CourseOutline
 
     public void setCourseName(String courseName) 
     {
+        //needs validation
         this.courseName = courseName;
     }
 

@@ -29,7 +29,7 @@ public class IntroToProgrammingCourse implements CourseOutline
 
     public final void setCourseNumber(String courseNumber) 
     {
-        
+        //needs validation
         this.courseNumber = courseNumber;
     }
 
@@ -40,7 +40,7 @@ public class IntroToProgrammingCourse implements CourseOutline
 
     public void setCredits(double credits) 
     {
-        
+        //needs validation
         this.credits = credits;
     }
 
@@ -51,7 +51,7 @@ public class IntroToProgrammingCourse implements CourseOutline
 
     public final void setCourseName(String courseName) 
     {
-        
+        //needs validation
         this.courseName = courseName;
     }
 
